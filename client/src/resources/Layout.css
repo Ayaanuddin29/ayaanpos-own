@@ -1,0 +1,85 @@
+#components-layout-demo-custom-trigger .trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  #components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+  }
+  
+  #components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .site-layout .site-layout-background {
+    background: #fff;
+    box-shadow: 0 0 3px #ccc;
+    border-radius: 5px;
+    overflow-y: scroll;
+  }
+  .ant-layout-has-sider{
+    padding: 15px;
+    height: 95vh;
+    border-radius: 10px;
+  }
+  .ant-layout-sider{
+    border-radius: 10px !important;
+    padding-top: 15px;
+    padding-right: 25px;
+  }
+  .ant-layout-content{
+     height: 90vh;
+     overflow-y:scroll;
+  }
+.ant-layout-header{
+  border-radius: 10px;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.anticon svg{
+  width: 25px;
+  height: 25px;
+  font-size: 25px;  
+}
+.menu{
+  text-decoration: none;
+}
+.demo-logo-vertical h3{
+  color: rgb(104, 177, 157);
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.ant-menu-item .ant-menu-item-selected{
+  background-color: #047979;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.hey{
+  text-decoration: none;
+
+}
+.spinner{
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.spinner-border{
+  height: 100px;
+  width: 100px;
+}
+.ant-layout-sider .ant-layout-sider-children  .ant-menu-item {
+  text-decoration: none;
+}
+.ant-layout.ant-layout-has-sider{
+  height: 100vh;
+}
